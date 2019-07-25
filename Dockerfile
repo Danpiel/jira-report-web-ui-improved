@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-ENV NODE_ENV=production \
+ENV NODE_ENV=development \
     SERVER_PORT=8080
 
 EXPOSE 8080
