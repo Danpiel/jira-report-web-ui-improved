@@ -1,9 +1,9 @@
 FROM node:lts-alpine
 
-ENV NODE_ENV=development \
-    SERVER_PORT=80
+ENV NODE_ENV=production \
+    SERVER_PORT=8080
 
-EXPOSE 80
+EXPOSE 8080
 
 RUN apk add libsass --update-cache; \
     mkdir -p /app
