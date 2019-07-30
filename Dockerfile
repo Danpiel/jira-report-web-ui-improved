@@ -5,7 +5,7 @@ ENV NODE_ENV=development \
 
 EXPOSE 8080
 
-RUN apk add libsass --update-cache; \
+RUN apk add curl nano libsass --update-cache; \
     mkdir -p /app
 
 COPY . /app
